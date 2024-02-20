@@ -1,0 +1,61 @@
+body {
+  background-image: url("https://www.beautymarket.es/imagen/min17054.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "roboto", sans-serif;
+  font-size: 20px;
+  display :flex;
+  flex-direction:colunm; 
+
+  
+}
+main{
+
+    height: 100px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  
+
+li {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: block;
+  background-color: crimson;
+  
+}
+img {
+  
+  width: 100px;
+  height: 100px;
+  margin: right 1em;
+}
+section {
+  height: 400px;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;display:flex;
+  flex-direction: file;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  margin-top: 650px;
+
+
+}
+
+footer{
+  background-image: url("https://previews.123rf.com/images/zven0/zven01509/zven0150900257/45835670-fondo-blanco-abstracto-con-l%C3%ADneas-suaves.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "roboto", sans-serif;
+  font-size: 20px;
+  position :fixed;
+  width: 100%;
+  bottom: 0 ;
+  display : flex ;
+
+}
